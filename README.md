@@ -11,7 +11,7 @@ gatyakan_residuals.Rproj
 gatyakan_residuals.ipynb  
 同じ分析を行うPythonでのコードです。Python使いの方はこちらをご覧ください。  
   
-出場時間の影響を取り除いて『ガチャ感』を調べる.Rmd
+出場時間の影響を取り除いて『ガチャ感』を調べる.Rmd  
 Rmarkdownで書かれた記事の下書きです。  
   
 出場時間の影響を取り除いて『ガチャ感』を調べる.html  
