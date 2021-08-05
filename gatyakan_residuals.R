@@ -23,7 +23,7 @@ boxscore=boxscore %>% mutate(res=model$residuals)
 
 #残差の要約統計量・ヒストグラムを表示
 summary(boxscore$res)
-boxscore %>% ggplot(aes(x=res))+geom_histogram()+xlab("残差")+ggtitle("データ全体の残差の平均のヒストグラム")
+boxscore %>% ggplot(aes(x=res))+geom_histogram()+xlab("残差")+ggtitle("データ全体の残差のヒストグラム")
 
 #残差を選手ごとに集計
 data=boxscore %>% group_by(Player) %>% 
